@@ -84,9 +84,8 @@
         .services {
             background-color: white;
             background: 
-    linear-gradient(rgba(12, 12, 12, 0.832), #25252513), /* overlay */
-    url('hero.png') center/cover no-repeat;
-  
+                linear-gradient(rgba(12, 12, 12, 0.832), #25252513),
+                url('hero.png') center/cover no-repeat;
         }
         
         .service-grid {
@@ -106,13 +105,6 @@
         
         .service-card:hover {
             transform: translateY(-5px);
-        }
-        
-        .service-card i {
-            color: var(--secondary);
-            font-size: 2rem;
-            margin-bottom: 1rem;
-            display: inline-block;
         }
         
         .experience {
@@ -140,7 +132,6 @@
             padding: 10px 40px;
             position: relative;
             width: 50%;
-            box-sizing: border-box;
         }
         
         .timeline-item::after {
@@ -262,9 +253,13 @@
             }
         }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
+
     <header>
         <div class="container">
             <h1>Sajal Moyra</h1>
@@ -274,7 +269,6 @@
     
     <section>
         <div class="container intro">
-            <!-- Add your profile image in the src attribute -->
             <p>Expert in PC repair, surveillance systems, and networking solutions with experience at Technika Computers and Brahma Computech. Fluent in Hindi, Bengali, and English.</p>
         </div>
     </section>
@@ -305,7 +299,9 @@
     <section class="experience">
         <div class="container">
             <h2>Work Experience</h2>
+
             <div class="timeline">
+
                 <div class="timeline-item left">
                     <div class="timeline-content">
                         <h3>Technika Computers, Kolkata</h3>
@@ -313,6 +309,7 @@
                         <p>Provided hardware repair services for PCs and laptops, diagnosed system issues, and implemented effective solutions for clients.</p>
                     </div>
                 </div>
+
                 <div class="timeline-item right">
                     <div class="timeline-content">
                         <h3>Brahma Computech, Dankuni</h3>
@@ -320,13 +317,24 @@
                         <p>Specialized in surveillance system installation and maintenance while assisting with networking setup and troubleshooting.</p>
                     </div>
                 </div>
+
                 <div class="timeline-item right">
                     <div class="timeline-content">
                         <h3>All In One IT Solution, Khidirpur</h3>
-                        <p><em>August 2025 - On Going</em></p>
-                        <p>Comprehensive Computer and Printer Maintenance, Diagnostic, and Troubleshooting Services for the South Eastern Railway Head Office.</p>
+                        <p><em>August 2025 - Ongoing</em></p>
+                        <p>Computer & Printer Maintenance, Diagnostics, and Troubleshooting for South Eastern Railway Head Office.</p>
                     </div>
                 </div>
+
+                <!-- NEW JOB ADDED -->
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>Joy Enterprises, Shrirampur</h3>
+                        <p><em>November 2025 - Present</em></p>
+                        <p>Printer installation, HP printer technical support, and ongoing maintenance services.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -334,7 +342,10 @@
     <section class="skills">
         <div class="container">
             <h2>Technical Skills</h2>
+
             <div class="skill-bars">
+
+                <!-- Existing Skills -->
                 <div class="skill">
                     <div class="skill-name">
                         <span>PC/Laptop Repair</span>
@@ -344,6 +355,7 @@
                         <div class="skill-progress" style="width: 95%;"></div>
                     </div>
                 </div>
+
                 <div class="skill">
                     <div class="skill-name">
                         <span>Surveillance Systems</span>
@@ -353,6 +365,7 @@
                         <div class="skill-progress" style="width: 90%;"></div>
                     </div>
                 </div>
+
                 <div class="skill">
                     <div class="skill-name">
                         <span>Networking</span>
@@ -362,6 +375,7 @@
                         <div class="skill-progress" style="width: 75%;"></div>
                     </div>
                 </div>
+
                 <div class="skill">
                     <div class="skill-name">
                         <span>Electrical Devices</span>
@@ -371,6 +385,48 @@
                         <div class="skill-progress" style="width: 80%;"></div>
                     </div>
                 </div>
+
+                <!-- NEW SKILLS -->
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>Hardware Troubleshooting</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>Printer & Peripheral Setup</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>System Maintenance</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 88%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>Basic Software Installation</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+
             </div>
             
             <h2 style="margin-top: 3rem;">Languages</h2>
@@ -393,5 +449,6 @@
             </div>
         </div>
     </footer>
+
 </body>
 </html>
